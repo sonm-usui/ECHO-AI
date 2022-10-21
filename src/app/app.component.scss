@@ -1,0 +1,21 @@
+.poco-ai-style {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+  border-radius: 20px;
+  border: 2px solid gray;
+}
+
+.cross {
+  position: fixed;
+  bottom: 650px;
+  right: 30px;
+  z-index: 9999999;
+}
+
+.cross:hover {
+  color: red;
+}
+::ng-deep .b-agent-demo .b-agent-demo_powered_by {
+  position: none;
+}
